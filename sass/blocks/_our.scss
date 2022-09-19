@@ -1,0 +1,34 @@
+.our__heading{
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
+  font-size: 27px;
+}
+
+.our__list{
+  display: block;
+}
+
+.our__item{
+  max-width: 500px;
+}
+
+.our__item>div{
+  display: flex;
+  align-items: center;
+  color: gray;
+  font-size: 18px;
+  padding-left: 20px;
+  border-left: 10px solid chocolate;
+}
+
+.our__item>div>img{
+  margin-right: 10px;
+}
+
+.our__content{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

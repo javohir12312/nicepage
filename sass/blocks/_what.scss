@@ -1,0 +1,49 @@
+.what{
+  background-color: chocolate;
+}
+
+.what__text{
+  width: 250px;
+  margin-top: 20px;
+}
+
+.what__inner{
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  margin-top: 150px;
+}
+
+.what__item{
+  margin: 0 15px;
+  max-width: 220px;
+}
+
+.what__item>img{
+  border-radius: 100px;
+}
+
+.what__list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.what__button{
+  padding: 15px 20px;
+  border-radius: 15px;
+  border: none;
+}
+
+@media (max-width: 900px) {
+  .what__text{
+    margin-top: 500px;
+  }
+
+  .what__item{
+    margin: 0;
+    max-width: 220px;
+  }
+}
